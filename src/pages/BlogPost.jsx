@@ -97,6 +97,8 @@ const BlogPost = () => {
             <img 
               src={article.banner} 
               alt={article.title}
+              loading="lazy"
+              decoding="async"
               className="w-full h-64 md:h-80 object-cover rounded-lg shadow-lg mb-8"
               onError={(e) => {
                 e.target.src = 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800&h=400&fit=crop';
@@ -144,6 +146,8 @@ const BlogPost = () => {
             <img 
               src={article.author.avatar} 
               alt={article.author.name}
+              loading="lazy"
+              decoding="async"
               className="w-12 h-12 rounded-full mr-4"
               onError={(e) => {
                 e.target.src = 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face';
@@ -191,6 +195,8 @@ const BlogPost = () => {
             <img 
               src={article.author.avatar} 
               alt={article.author.name}
+              loading="lazy"
+              decoding="async"
               className="w-20 h-20 rounded-full mb-4 sm:mb-0 sm:mr-6"
               onError={(e) => {
                 e.target.src = 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face';

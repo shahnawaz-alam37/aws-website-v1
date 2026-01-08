@@ -26,6 +26,8 @@ const BlogCard = ({ article, size = 'default' }) => {
           <img 
             src={article.thumbnail} 
             alt={article.title}
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
           />
         </div>
