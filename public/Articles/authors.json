@@ -1,0 +1,20 @@
+{
+  "authors": [
+    {
+      "slug": "Shahnawaz-alam",
+      "name": "Shahnawaz Alam",
+      "tagline": "Full Stack Developer & AI Engineer",
+      "bio": "Shahnawaz Alam is a Full-Stack Developer and AI Engineer with a strong focus on building scalable web applications using React.js and the MERN stack. He actively works on integrating AI-driven features into real-world systems and has hands-on experience deploying applications on AWS. As Lead of WebDev team of the AWS Cloud Club at MJCET, he contributes to building and maintaining production-grade websites while mentoring peers in full-stack and AI projects",
+      "avatar": "/images/authors/shahnawaz.jpg",
+      "location": "Hyderabad, India",
+      "role": "WebDev Lead, AWS Cloud Club MJCET",
+      "social": {
+        "twitter": "https://x.com/shah_alam37",
+        "github": "https://github.com/shahnawaz-alam37",
+        "linkedin": "https://linkedin.com/in/shahnawaz-alam37",
+        "website": ""
+      },
+      "expertise": ["React", "Vite", "Tailwind", "Node.js", "AWS", "DevOps"]
+    }
+  ]
+}

@@ -160,14 +160,22 @@ function Home() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-3 justify-center items-center">
-            <a className="group relative px-6 py-3 bg-white text-black font-medium rounded-lg transition-all duration-300 hover:scale-105 hover:bg-white/90 text-sm" style={{ fontFamily: 'Inter, sans-serif' }} href="https://docs.google.com/forms/d/e/1FAIpQLSeFZHIXnUFz46NuwibriOUkL7rEjk-PQetA8X0z2o9TCQK4pA/viewform" target="_blank" rel="noopener noreferrer">
-              <span className="relative z-10 flex items-center">
-                <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197m13.5-9a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0z" />
-                </svg>
-                Join Now
-              </span>
-            </a>
+            <a
+  className="relative inline-flex items-center justify-center font-medium rounded-lg text-sm overflow-hidden 
+             glow-border" // Apply the glow-border class here
+  style={{ fontFamily: 'Inter, sans-serif' }}
+  href="https://docs.google.com/forms/d/e/1FAIpQLSeFZHIXnUFz46NuwibriOUkL7rEjk-PQetA8X0z2o9TCQK4pA/viewform"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  {/* Inner Content Layer (Solid White Face) */}
+  {/* Adjust px/py and rounded-[...] to control button size and border thickness */}
+  <span 
+    className="relative z-10 flex items-center bg-white text-black px-6 py-3 rounded-[6px] transition-colors duration-300 hover:bg-white/95"
+  >
+    Join Now
+  </span>
+</a>
             
             <a className="group relative px-6 py-3 bg-transparent border border-white/20 hover:border-white/30 text-white font-medium rounded-lg transition-all duration-300 hover:scale-105 hover:bg-white/5 text-sm" style={{ fontFamily: 'Inter, sans-serif' }} href="https://www.meetup.com/aws-cloud-club-mjcet/" target='_blank' > 
               <span className="relative z-10 flex items-center">

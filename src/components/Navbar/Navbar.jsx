@@ -14,6 +14,7 @@ const navItems = [
   // { name: "Playground", link: "/playground" },
   { name: "Contact", link: "/contact" },
   { name: "Gallery", link: "/gallery" },
+  { name: "Blogs", link: "/blogs" },
 ];
 
 const socialLinks = [

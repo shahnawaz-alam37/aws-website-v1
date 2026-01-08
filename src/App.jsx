@@ -12,6 +12,10 @@ import Contact from '@pages/Contact'
 import Playground from '@pages/Playground'
 import ScrollyLoader from './components/WebsiteLoader/ScrollyLoader'
 import Gallery from '@pages/Gallery'
+import Blogs from '@pages/Blogs'
+import BlogPost from '@pages/BlogPost'
+import BlogDataProvider from './components/Blog/BlogDataProvider'
+import Author from '@pages/Author'
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -60,23 +64,28 @@ function App() {
       {loading ? (
         <ScrollyLoader onLoadComplete={handleLoadComplete} />
       ) : (
-        <Router>
-          <div className="flex flex-col min-h-screen">
-            <Navbar />
-            <main className="flex-grow">
-              <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/events" element={<Events />} />
-                {/* <Route path="/achievements" element={<Achievements />} />
-                <Route path="/playground" element={<Playground />} /> */}
-                <Route path="/contact" element={<Contact />} />
-                <Route path='/gallery' element={<Gallery/>}/>
-              </Routes>
-            </main>
-            <Footer />
-          </div>
-        </Router>
+        <BlogDataProvider>
+          <Router>
+            <div className="flex flex-col min-h-screen">
+              <Navbar />
+              <main className="flex-grow">
+                <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route path="/about" element={<About />} />
+                  <Route path="/events" element={<Events />} />
+                  {/* <Route path="/achievements" element={<Achievements />} />
+                  <Route path="/playground" element={<Playground />} /> */}
+                  <Route path="/contact" element={<Contact />} />
+                  <Route path='/gallery' element={<Gallery/>}/>
+                  <Route path='/blogs' element={<Blogs/>}/>
+                  <Route path='/post/:slug' element={<BlogPost/>}/>
+                  <Route path='/author/:slug' element={<Author/>}/>
+                </Routes>
+              </main>
+              <Footer />
+            </div>
+          </Router>
+        </BlogDataProvider>
       )}
     </>
   )

@@ -1,0 +1,161 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Getting Started with React",
+      "slug": "getting-started-react-hooks",
+      "filename": "2024-01-15-getting-started-with-react.md",
+      "excerpt": "Learn how to use React Hooks to manage state and side effects in functional components. This comprehensive guide covers useState, useEffect, and custom hooks with practical examples.",
+      "date": "2024-03-15",
+      "category": "React",
+      "tags": ["react", "hooks", "javascript", "frontend", "tutorial"],
+      "featured": true,
+      "readTime": "8 min",
+      "thumbnail": "/images/blog_images/react-banner.png",
+      "banner": "/images/blog_images/react-banner.png",
+      "author": {
+        "name": "Shahnawaz Alam",
+        "slug": "Shahnawaz-alam",
+        "tagline": "Full Stack Developer & AI engineer",
+        "bio": "Shahnawaz is the WebDev Lead at AWSCC, full-stack developer with expertise in modern web technologies and cloud infrastructure. He helps teams build scalable applications and implement DevOps practices.",
+        "avatar": "/images/authors/shahnawaz.jpg",
+        "social": {
+          "twitter": "https://x.com/shah_alam37",
+          "github": "https://github.com/shahnawaz-alam37",
+          "linkedin": "https://linkedin.com/in/shahnawaz-alam37",
+          "website": ""
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "Building with vite",
+      "slug": "advanced-javascript-patterns",
+      "filename": "2024-02-10-building-with-vite.md",
+      "excerpt": "Explore advanced JavaScript patterns including closures, prototypes, async programming, and design patterns. Master the concepts that separate good developers from great ones.",
+      "date": "2024-03-10",
+      "category": "JavaScript",
+      "tags": ["javascript", "patterns", "advanced", "closures", "prototypes"],
+      "featured": false,
+      "readTime": "12 min",
+      "banner": "/images/blog_images/react+vite.png",
+      "thumbnail": "/images/blog_images/react+vite.png",
+      "author": {
+        "name": "Shahnawaz Alam",
+        "slug": "Shahnawaz-alam",
+        "tagline": "Full Stack Developer & AI engineer",
+        "bio": "Shahnawaz is the WebDev Lead at AWSCC, a full-stack developer with expertise in modern web technologies and cloud infrastructure. He helps teams build scalable applications and implement DevOps practices.",
+        "avatar": "/images/authors/shahnawaz.jpg",
+        "social": {
+          "twitter": "https://x.com/shah_alam37",
+          "github": "https://github.com/shahnawaz-alam37",
+          "linkedin": "https://linkedin.com/in/shahnawaz-alam37",
+          "website": ""
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "Mastering tailwind CSS",
+      "slug": "building-modern-web-applications-vite",
+      "filename": "2024-03-05-mastering-tailwind-css.md",
+      "excerpt": "A comprehensive guide to building scalable and maintainable web applications using Vite, modern tools, and best practices. Learn about project setup, optimization, and deployment.",
+      "date": "2024-03-05",
+      "category": "Web Development",
+      "tags": ["vite", "web-development", "build-tools", "optimization", "modern"],
+      "featured": false,
+      "readTime": "15 min",
+      "banner": "/images/blog_images/tailwind banner.png",
+      "thumbnail": "/images/blog_images/tailwind banner.png",
+      "author": {
+        "name": "Shahnawaz Alam",
+        "slug": "Shahnawaz-alam",
+        "tagline": "Full Stack Developer & AI engineer",
+        "bio": "Shahnawaz is the WebDev Lead at AWSCC, full-stack developer with expertise in modern web technologies and cloud infrastructure. He helps teams build scalable applications and implement DevOps practices.",
+        "avatar": "/images/authors/shahnawaz.jpg",
+        "social": {
+          "twitter": "https://x.com/shah_alam37",
+          "github": "https://github.com/shahnawaz-alam37",
+          "linkedin": "https://linkedin.com/in/shahnawaz-alam37",
+          "website": ""
+        }
+      }
+    },
+    {
+      "id": 4,
+      "title": "Docker",
+      "slug": "Getting-started-with-Docker",
+      "filename": "2025-09-28-Docker.md",
+      "excerpt": "A guide to get started with docker and its concept to build containerized applications and deployment.",
+      "date": "2024-03-05",
+      "category": "Devops",
+      "tags": ["docker", "Kubernites", "Git", "devops", "modern"],
+      "featured": false,
+      "readTime": "15 min",
+      "banner": "/images/blog_images/docker.png",
+      "thumbnail": "/images/blog_images/docker.png",
+      "author": {
+        "name": "Shahnawaz Alam",
+        "slug": "Shahnawaz-alam",
+        "tagline": "Full Stack Developer & AI engineer",
+        "bio": "Shahnawaz is the WebDev Lead at AWSCC, a full-stack developer with expertise in modern web technologies and cloud infrastructure. He helps teams build scalable applications and implement DevOps practices.",
+        "avatar": "/images/authors/shahnawaz.jpg",
+        "social": {
+          "twitter": "https://x.com/shah_alam37",
+          "github": "https://github.com/shahnawaz-alam37",
+          "linkedin": "https://linkedin.com/in/shahnawaz-alam37",
+          "website": ""
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "name": "React",
+      "slug": "react",
+      "description": "Articles about React framework, hooks, components, and best practices",
+      "color": "#61DAFB",
+      "count": 2
+    },
+    {
+      "name": "JavaScript",
+      "slug": "javascript", 
+      "description": "Deep dives into JavaScript language features, patterns, and advanced concepts",
+      "color": "#F7DF1E",
+      "count": 1
+    },
+    {
+      "name": "Web Development",
+      "slug": "web-development",
+      "description": "General web development topics, tools, architecture, and best practices",
+      "color": "#FF6B6B",
+      "count": 1
+    },
+    {
+      "name": "CSS",
+      "slug": "css",
+      "description": "CSS techniques, layouts, animations, and modern styling approaches",
+      "color": "#1572B6",
+      "count": 1
+    },
+    {
+      "name": "TypeScript",
+      "slug": "typescript",
+      "description": "TypeScript tips, best practices, and advanced type system features", 
+      "color": "#3178C6",
+      "count": 1
+    }
+  ],
+  "tags": [
+    "react", "javascript", "typescript", "css", "web-development",
+    "hooks", "performance", "best-practices", "advanced", "frontend",
+    "patterns", "optimization", "layout", "design", "types", "vite",
+    "build-tools", "modern", "responsive", "development", "monitoring",
+    "react-18", "closures", "prototypes", "tutorial"
+  ],
+  "meta": {
+    "totalArticles": 3,
+    "lastUpdated": "2024-03-15T00:00:00Z",
+    "version": "1.0.0"
+  }
+}
